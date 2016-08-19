@@ -87,3 +87,6 @@ END_HEADER
 
 print $header;
 print "\n\nApache2buddy is currently undergoing scream testing.";
+print "\n\nIf you value this tool you can take part in the screamtest in the following way:";
+print "\n\n\t* Vote with a thumbsdown reaction at: https://github.com/richardforth/apache2buddy/issues/13";
+
