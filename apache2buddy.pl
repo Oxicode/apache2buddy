@@ -69,7 +69,9 @@ use strict;
 #
 ############################################################################################################
 
-
+# add some colour
+$BLUE = "\033[94m";
+$ENDC = "\033[0m";
 
 
 # print a header
@@ -80,7 +82,7 @@ my $header = <<"END_HEADER";
 ##     / /| | / __ \\/ __ `/ ___/ __ \\/ _ \\__/ /   / __  / / / / __  / __  / / / /     ##
 ##    / ___ |/ /_/ / /_/ / /__/ / / /  __/ __/   / /_/ / /_/ / /_/ / /_/ / /_/ /      ##
 ##   /_/  |_/ .___/\\__,_/\\___/_/ /_/\\___/____/  /_____/\\__,_/\\__,_/\\__,_/\\__, /       ##
-##         /_/ apache2buddy.pl    OFFICIAL SCREAM TESTING IN PROGRESS  /____/        ##
+##         /_/ apache2buddy.pl    ${BLUE}OFFICIAL SCREAM TESTING IN PROGRESS${ENDC}  /____/        ##
 ##                                                                                    ##
 ########################################################################################
 END_HEADER
@@ -89,4 +91,5 @@ print $header;
 print "\n\nApache2buddy is currently undergoing scream testing.";
 print "\n\nIf you value this tool you can take part in the screamtest in the following way:";
 print "\n\n\t* Vote with a thumbsdown reaction at: https://github.com/richardforth/apache2buddy/issues/13";
-
+print "\n\nThe scream test will end on __TBA__, after which normal functionality will be restored.";
+print "\n\nIf you have any questions or concerns, please comment on the above issue thread.\n\n";
