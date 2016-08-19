@@ -90,6 +90,6 @@ END_HEADER
 print $header;
 print "\n\nApache2buddy is currently undergoing scream testing.";
 print "\n\nIf you value this tool you can take part in the screamtest in the following way:";
-print "\n\n\t* Vote with a thumbsdown reaction at: https://github.com/richardforth/apache2buddy/issues/13";
+print "\n\n\t* Vote with a thumbsdown reaction at: ${BLUE}https://github.com/richardforth/apache2buddy/issues/13${ENDC}";
 print "\n\nThe scream test will end on __TBA__, after which normal functionality will be restored.";
 print "\n\nIf you have any questions or concerns, please comment on the above issue thread.\n\n";
